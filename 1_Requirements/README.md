@@ -39,5 +39,13 @@ The normal people facing problems in daily life.
 <h3> How</h3>
 
 <h2> SWOT Analysis</h2>
+<h3> Strenghts </h3>
+   This application is a user friendly application which performs all the mathematical operations.
+<h3> Weaknesses </h3>
+   This application is not implemented with user interface.
+<h3> Oportunities </h3>
+   This application wil be upgraded to user interface application.
+<h3> Threats </h3>
+   There are various similar appliaction for calculator which implements these advaced features.
 <h2> High Level Requirements</h2>
 <h2>Low Level Requirements</h2>
