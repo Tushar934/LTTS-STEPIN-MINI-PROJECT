@@ -1,0 +1,19 @@
+For Windows 
+
+CC=gcc
+
+CFLAGS=-g -Wall
+
+TARGET=Calculator
+
+RM=rm
+
+all: $(TARGET)
+
+$(TARGET): $(TARGET).c
+	$(CC) $(CFLAGS) -o $(TARGET) $(TARGET).c
+
+clean:
+	$(RM) $(TARGET)
+
+
