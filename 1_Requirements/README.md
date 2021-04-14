@@ -11,13 +11,15 @@ addition, subtraction, multiplication, and division
 Logarithms
 Sine, cosine, and tangent functions.
 <h2> State of Art </h2>
-<br>
-|      Cost     |     Time      |
-| ------------- | ------------- |
-|      2-3k     | 10 days       |
-<br>
+
+
+         |      Cost     |     Time      |
+         | ------------- | ------------- |
+         |      2-3k     |    10 days    |
+
+
 <h2> Identify Requirements </h2>
-The calculator has the following keys: 0..9, +, -, *, /, =,sqrt. 
+The calculator has the following keys: 0..9, +, -, *, /, =,sqrt and many more. 
 In any situation the calculator has to produce a correct result defined by the well known
 arithmetic rules. 
 <br></br>
@@ -48,6 +50,6 @@ The normal people facing problems in daily life.
 <h3> Oportunities </h3>
    This application wil be upgraded to user interface application.
 <h3> Threats </h3>
-   There are various similar appliaction for calculator which implements these advaced features.
+   There are various similar appliaction for calculator which implements these advanced features.
 <h2> High Level Requirements</h2>
 <h2>Low Level Requirements</h2>
