@@ -5,6 +5,11 @@ typedef struct Calculator{
     float x;
     float y;
 };
+typedef struct cal{
+	int a;
+	int y;
+};
+
 float add(float a, float b) {
     return a + b;
 }
@@ -79,6 +84,7 @@ float power_3(float a, float b){
 
 int main(void) {
 	Calculator c;
+	Calc ca;
 int choice,result1;
 float result;
 float(*funct_ptr[])(float, float) = {add, sub, mul, divi,power,percent,power_y,power_3};
@@ -221,10 +227,10 @@ break;
 
 case 16:
 printf("Enter X: ");
-scanf("%d", &c.x);
+scanf("%d", &ca.x);
 printf("\nEnter Y: ");
-scanf("%d", &c.y);
-result1=funct1_ptr[0](c.x,c.y);
+scanf("%d", &ca.y);
+result1=funct1_ptr[0](ca.x,ca.y);
 printf("\nResult: %d\n", result1);
 break;
 
