@@ -20,7 +20,12 @@ float mul(float a, float b) {
     return a * b;
 }
 float divi(float a, float b) {
+	if (b==0){
+	printf("Invalid ouput\n")
+}
+else{
     return a / b;
+}
 }
 float square_r(float a){
     return sqrt(a);
