@@ -15,7 +15,7 @@ Sine, cosine, and tangent functions.
 
 |      Cost     |     Time      |
 |-------------- | ------------- |
-|      2-3k     |    10 days    |
+|     30,000    |    10 days    |
 
 <br>
 <h2> Identify Requirements </h2>
@@ -41,6 +41,7 @@ Since the calculator application was not formed.
 The normal people facing problems in daily life.
 <br></br>
 <h3> How</h3>
+This application makes success and made good application as compare to others by implementing more advanced features that the others not implemented.
 
 <h2> SWOT Analysis</h2>
 <h3> Strenghts </h3>
