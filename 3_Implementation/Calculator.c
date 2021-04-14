@@ -6,8 +6,8 @@ typedef struct Calculator{
     float y;
 };
 typedef struct cal{
-	int a;
 	int y;
+	int x;
 };
 
 float add(float a, float b) {
