@@ -11,9 +11,13 @@ addition, subtraction, multiplication, and division
 Logarithms
 Sine, cosine, and tangent functions.
 <h2> State of Art </h2>
-|      Cost     |     Time      |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
+
+
+  |      Cost     |     Time      |
+  | ------------- | ------------- |
+  |      2-3k     | 10 days       |
+
+
 <h2> Identify Requirements </h2>
 The calculator has the following keys: 0..9, +, -, *, /, =,sqrt. 
 In any situation the calculator has to produce a correct result defined by the well known
