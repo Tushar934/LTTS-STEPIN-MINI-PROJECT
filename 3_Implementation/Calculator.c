@@ -84,7 +84,7 @@ float power_3(float a, float b){
 
 int main(void) {
 	Calculator c;
-	Calc ca;
+	Cal ca;
 int choice,result1;
 float result;
 float(*funct_ptr[])(float, float) = {add, sub, mul, divi,power,percent,power_y,power_3};
