@@ -1,1 +1,36 @@
+<h1> Test Plans </h1>
+<h2> High Level Test Plans </h2>
 
+
+
+|      ID       |                   Description                |     Expected I/P       |   Expected O/P    |  Actual O/P  |     Type        |      Status     |
+| ------------- | ---------------------------------------      | ---------------------  | ----------------  | ------------ | --------------- | --------------  |
+|      H1       |          The choice is 1 for Addition.       |       10.0,5.0         |     15.000000     |   15.000000  |  Requirement    |     Success     |
+|      H2       |          The choice is 2 for Sustration      |       10.0,5.0         |      5.000000     |    5.000000  |  Requirement    |     Success     |
+|      H3       |          The choice is 3 for Multiplication. |       1.0,5.0          |      5.000000     |    5.000000  |  Requirement    |     Success     |
+|      H4       |          The choice is 4 for Division        |       10,5             |      2.000000     |    2.000000  |  Requirement    |     Success     |
+|      H5       |          The choice is 5 for Square root.    |       4                |      2.000000     |    2.000000  |  Requirement    |     Success     |
+|      H6       |          The choice is 6 for x^y.            |       3,3              |     27.000000     |   27.000000  |  Requirement    |     Success     |
+|      H7       |          The choice is 7 for x^2.            |       4.0              |     16.000000     |   16.000000  |  Requirement    |     Success     |
+|      H8       |          The choice is 8 for x^3.            |       3.0              |     27.000000     |   27.000000  |  Requirement    |     Success     |
+|      H9       |          The choice is 9 for 1/x.            |       10               |      0.100000     |    0.100000  |  Requirement    |     Success     |
+|      H10      |          The choice is 10 for x^(1/y).       |       3,3              |      1.442250     |    1.442250  |  Requirement    |     Success     |
+|      H11      |          The choice is 11 for x^(1/3.        |        6               |      1.817121     |    1.817121  |  Requirement    |     Success     |
+|      H12      |          The choice is 12 for 10^x.          |        6               |  1000000.000000   | 1000000.000000| Requirement    |     Success     |
+|      H13      |          The choice is 13 for x!.            |        5               |        120        |     120      |  Requirement    |     Success     |
+|      H14      |          The choice is 14 for Percent.       |       5,2              |        0.10       |     0.10     |  Requirement    |     Success     |
+|      H15      |          The choice is 15 for log10(x).      |       10               |        1.00       |     1.00     |  Requirement    |     Success     |
+|      H16      |          The choice is 16 for Modulus.       |       6,5              |          1        |       1      |  Requirement    |     Success     |
+|      H17      |          The choice is 17 for Sin(x).        |        8               |        0.14       |     0.14     |  Requirement    |     Success     |
+|      H18      |          The choice is 18 for Cos(x).        |        8               |        0.99       |     0.99     |  Requirement    |     Success     |
+|      H19      |          The choice is 19 for Tan(x).        |        8               |        0.14       |     0.14     |  Requirement    |     Success     |
+|      H20      |          The choice is 20 for Cosec(x).      |        8               |        7.19       |     7.19     |  Requirement    |     Success     |
+|      H21      |          The choice is 21 for Sec(x).        |        8               |        1.01       |     1.01     |  Requirement    |     Success     |
+|      H22      |          The choice is 22 for Cot(x).        |        8               |        7.12       |     7.12     |  Requirement    |     Success     |
+
+
+
+
+
+
+<h2> Low Level Test Plans </h2> 
