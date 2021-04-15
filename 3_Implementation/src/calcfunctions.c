@@ -1,7 +1,7 @@
 /**
  * @file calcfunctions.c
  */
-#include "header.h"
+#include "calcheader.h"
 float add(calc1 *c1) {
     float res;
     res= c1->a + c1->b;
@@ -17,7 +17,7 @@ float mul(calc1 *c1) {
     res= c1->a * c1->b;
     return res;
 }
-float divi(clac1 *c1) {
+float divi(calc1 *c1) {
     float res;
     if (c1->b==0){
 	return -1;
@@ -37,29 +37,29 @@ float square_r(calc5 *c5){
         return res;
 }
 }
-float power(clac1 *c1){
+float power(calc1 *c1){
     float res;
     res= pow(c1->a , c1->b);
     return res;
 }
 float power_2(calc3 *c3){
     float res;
-    res= pow(c1->e , c1->f);
+    res= pow(c3->e , c3->f);
     return res;
 }
 float power_3(calc3 *c3){
     float res;
-    res= pow(c1->e , c1->f);
+    res= pow(c3->e , c3->f);
     return res;
 }
 float power_neg(calc3 *c3){
     float res;
-    res= pow(c1->e , c1->f);
+    res= pow(c3->e , c3->f);
     return res;
 }
 float power_to_10(calc4 *c4){
     float res;
-    res= pow(c1->g , c1->h);
+    res= pow(c4->g , c4->h);
     return res;
 }
 float log_10(calc5 *c5){
@@ -123,7 +123,7 @@ float fact(calc5 *c5){
 	}
 	else{
     int i;
-    for(i = 1; i <= a; i++) {
+    for(i = 1; i <= c5->i; i++) {
     res = res * i;
 }
 }
@@ -139,5 +139,3 @@ float power_one_divideby_3(calc1 *c1){
     res=pow(c1->a, (1/c1->b));
     return res;    
 }
-
-
