@@ -39,7 +39,7 @@
 |      ID       |                   Description                |     Expected I/P       |   Expected O/P    |  Actual O/P  |     Type        |      Status     |
 | ------------- | ---------------------------------------      | ---------------------  | ----------------  | ------------ | --------------- | --------------  |
 |      L1       |          Negative numbers Addition.          |       -10.0,-5.0       |     -15.000000    |   -15.000000 |  Requirement    |     Success     |
-|      H2       |          Negative number and Positive Sustration|    -10.0,5.0        |      -15.000000   |   -15.000000 |  Requirement    |     Success     |
+|      H2       |          Negative number and Positive Substration|    -10.0,5.0       |      -15.000000   |   -15.000000 |  Requirement    |     Success     |
 |      H3       |          Negative number Multiplication.     |       -10.0,-5.0       |      50.000000    |    50.000000 |  Requirement    |     Success     |
 |      H4       |          Number divide by 0 for Division     |        10.0,0          |      -1.000000    |    -1.000000 |  Scenario       |     Success     |
 |      H5       |          Negative number for Square root.    |        -4              |      -1.000000    |    -1.000000 |  Scenario       |     Success     |
