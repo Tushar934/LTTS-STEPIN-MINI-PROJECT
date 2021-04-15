@@ -1,14 +1,14 @@
 #include<stdio.h>
-#include<stdlib.h>>
+#include<stdlib.h>
 #include<math.h>
 typedef struct Calculator{
     float x;
     float y;
-};
+}Calculator;
 typedef struct Calc{
     int a;
     int b;
-};
+}Calc;
 /**
 *  addition the a and b and returns the result
 * @param[in] a
@@ -153,7 +153,7 @@ float power_y(float a, float b);
 * @param[in] b
 * @return Result of a ^ 1/3
 */
-float power_3(float a, float b);
+float power_one_divideby_3(float a, float b);
 
 int main(void) {
 	Calculator c;
@@ -163,7 +163,7 @@ float result;
 float(*funct_ptr[])(float, float) = {add, sub, mul, divi,power,percent,power_y,power_3};
 float(*funct0_ptr[])(float) = {square_r,log_10,sin_v,cos_v,tan_v,sin_inv,cos_inv,tan_inv,fact};
 int (*funct1_ptr[])(int, int)={modu};
-float (*funct2_ptr[])(float, int)={power_2,power_3,power_neg,power_to_10};
+float (*funct2_ptr[])(float, int)={power_2,power_one_divideby_3,power_neg,power_to_10};
 
 do {
 printf("\nSelect your operation (0 to exit):\n");
@@ -367,14 +367,19 @@ float mul(float a, float b) {
 }
 float divi(float a, float b) {
     if (b==0){
-	printf("Invalid ouput\n");
+	return -1;
 }
 else{
     return a / b;
 }
 }
 float square_r(float a){
+	if(a<0){
+	return -1;
+	}
+	else{
     return sqrt(a);
+}
 }
 float power(float a,float b){
  return pow(a,b);
@@ -392,7 +397,10 @@ float power_to_10(float a,int b){
     return pow(a,b);
 }
 float log_10(float a){
+	if(a<=0){return -1;}
+	else{
     return log10(a);
+}
 }
 int modu(int a,int b){
     return a%b;
@@ -420,16 +428,25 @@ float percent(float a,float b)
 return (a*b)/100;
 }
 float fact(float a){
-    float result = 1;
-    for(int i = 1; i <= a; i++) {
+	float result = 1;
+	if(a==0){
+	return 1;
+	}
+	else if(a<0){
+	return -1;
+	}
+	else{
+    int i;
+    for(i = 1; i <= a; i++) {
     result = result * i;
+}
 }
         return result;
 }
 float power_y(float a, float b){
     return pow(a, (1/b));
 }
-float power_3(float a, float b){
+float power_one_divideby_3(float a, float b){
     return pow(a, (1/b));
 }
 
