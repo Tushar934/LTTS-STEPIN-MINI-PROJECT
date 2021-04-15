@@ -1,10 +1,10 @@
 /**
- * @file header.h
+ * @file calcheader.h
  * @author 260766
  */
 
-#ifndef __HEADER_H__
-#define __HEADER_H__
+#ifndef __CALCHEADER_H__
+#define __CALCHEADER_H__
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
@@ -197,3 +197,4 @@ float power_y(calc1 *c1);
 * @return Result of a ^ 1/3
 */
 float power_one_divideby_3(calc1 *c1);
+#endif /*
