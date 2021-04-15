@@ -2,7 +2,7 @@
  * @file calcmain.c
  * @author 260766
  */
-#include "header.h"
+#include "calcheader.h"
 
 int main(void) {
 	calc1 c1;
