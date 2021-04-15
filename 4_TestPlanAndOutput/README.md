@@ -6,9 +6,9 @@
 |      ID       |                   Description                |     Expected I/P       |   Expected O/P    |  Actual O/P  |     Type        |      Status     |
 | ------------- | ---------------------------------------      | ---------------------  | ----------------  | ------------ | --------------- | --------------  |
 |      H1       |          The choice is 1 for Addition.       |       10.0,5.0         |     15.000000     |   15.000000  |  Requirement    |     Success     |
-|      H2       |          The choice is 2 for Sustration      |       10.0,5.0         |      5.000000     |    5.000000  |  Requirement    |     Success     |
+|      H2       |          The choice is 2 for Sustration.     |       10.0,5.0         |      5.000000     |    5.000000  |  Requirement    |     Success     |
 |      H3       |          The choice is 3 for Multiplication. |       1.0,5.0          |      5.000000     |    5.000000  |  Requirement    |     Success     |
-|      H4       |          The choice is 4 for Division        |       10,5             |      2.000000     |    2.000000  |  Requirement    |     Success     |
+|      H4       |          The choice is 4 for Division.       |       10,5             |      2.000000     |    2.000000  |  Requirement    |     Success     |
 |      H5       |          The choice is 5 for Square root.    |       4                |      2.000000     |    2.000000  |  Requirement    |     Success     |
 |      H6       |          The choice is 6 for x^y.            |       3,3              |     27.000000     |   27.000000  |  Requirement    |     Success     |
 |      H7       |          The choice is 7 for x^2.            |       4.0              |     16.000000     |   16.000000  |  Requirement    |     Success     |
@@ -39,9 +39,9 @@
 |      ID       |                   Description                |     Expected I/P       |   Expected O/P    |  Actual O/P  |     Type        |      Status     |
 | ------------- | ---------------------------------------      | ---------------------  | ----------------  | ------------ | --------------- | --------------  |
 |      L1       |          Negative numbers Addition.          |       -10.0,-5.0       |     -15.000000    |   -15.000000 |  Requirement    |     Success     |
-|      H2       |          Negative number and Positive Substration|    -10.0,5.0       |      -15.000000   |   -15.000000 |  Requirement    |     Success     |
+|      H2       |          Negative number and Positive Substration.|    -10.0,5.0      |      -15.000000   |   -15.000000 |  Requirement    |     Success     |
 |      H3       |          Negative number Multiplication.     |       -10.0,-5.0       |      50.000000    |    50.000000 |  Requirement    |     Success     |
-|      H4       |          Number divide by 0 for Division     |        10.0,0          |      -1.000000    |    -1.000000 |  Scenario       |     Success     |
+|      H4       |          Number divide by 0 for Division.    |        10.0,0          |      -1.000000    |    -1.000000 |  Scenario       |     Success     |
 |      H5       |          Negative number for Square root.    |        -4              |      -1.000000    |    -1.000000 |  Scenario       |     Success     |
 |      H6       |          Neagtive numbers for x^y.           |       -3.0,-4.0        |      0.012346     |     0.012346 |  Requirement    |     Success     |
 |      H7       |          Negative number for x^2.            |       -4.0             |      16.000000    |    16.000000 |  Requirement    |     Success     |
@@ -52,7 +52,7 @@
 |      H12      |          Zero value for log10(x).            |        0.0             |       -1.00       |    -1.00     |  Scenario       |     Success     |
 |      H13      |          Negative value for log10(x).        |        -9              |       -1.00       |    -1.00     |  Scenario       |     Success     |
 |      H14      |          Negative values for Percent.        |       -5,-8            |        0.40       |     0.40     |  Requirement    |     Success     |
-|      H15      |          One positive nad one negative for Percent|  3.0,-4.0         |        -0.12      |    -0.12     |  Requirement    |     Success     |
+|      H15      |          One positive nad one negative for Percent.|  3.0,-4.0        |        -0.12      |    -0.12     |  Requirement    |     Success     |
 |      H16      |          Negative numbers for division.      |       -5,-8            |       0.625000    |    0.625000  |  Requirement    |     Success     |
 |      H17      |          Negative value for Sin(x).          |        -8              |        -0.14      |     -0.14    |  Requirement    |     Success     |
 |      H18      |          Negative value for Cos(x).          |        -8              |        0.99       |     0.99     |  Requirement    |     Success     |
