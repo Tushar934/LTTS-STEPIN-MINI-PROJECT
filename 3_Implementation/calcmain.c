@@ -1,5 +1,5 @@
 /**
- * @file main.c
+ * @file calcmain.c
  * @author 260766
  */
 #include "header.h"
