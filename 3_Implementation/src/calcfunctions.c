@@ -1,5 +1,5 @@
 /**
- * @file functions.c
+ * @file calcfunctions.c
  */
 #include "header.h"
 float add(calc1 *c1) {
