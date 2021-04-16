@@ -1,17 +1,17 @@
 /**
  * @file test.c
  */
-#include <unity.h>
+#include "unity.h"
 #include "header.h"
 #define PROJECT_NAME    "ProjectCalculator"
-calc1 testc1={10.0,5.0}; //positive
-calc1 testc12={-10.0,-5.0}; //negative
-calc1 testc1={10.0,0.0}; //zero deno
-calc2 testc2={6,5}; // positive
-calc2 testc22={-6,-5}; // negative
-calc5  testc5={8}; //Positive
-calc5 testc51={-8}; //negative
-calc5  testc52={0}; //Zero
+calc1 testcp={10.0,5.0}; //positive
+calc1 testcn={-10.0,-5.0}; //negative
+calc1 testcz={10.0,0.0}; //zero deno
+calc2 testcp2={6,5}; // positive
+calc2 testcn2={-6,-5}; // negative
+calc5  testcp5={8}; //Positive
+calc5 testcn5={-8}; //negative
+calc5  testcz5={0}; //Zero
 
 void t_add(void);
 void t_sub(void);
@@ -43,7 +43,7 @@ int main()
 
 /* Run Test functions */
  RUN_TEST(t_add);
- RUN_TEST(t_sub);
+ RUN_TEST(t_sub;
  RUN_TEST(t_mul);
  RUN_TEST(t_div);
  RUN_TEST(t_divByZero);
@@ -64,63 +64,62 @@ int main()
 
 /* all test functions */ 
 void t_add(void) {
-  TEST_ASSERT_EQUAL(15.000000,add(&testc1));
-   TEST_ASSERT_EQUAL(-15.00000,sum(&testc12)); 
+  TEST_ASSERT_EQUAL(15.000000,add(&testcp));
+   TEST_ASSERT_EQUAL(-15.00000,sum(&testcn)); 
    }
 void t_sub(void) {
-  TEST_ASSERT_EQUAL(5.000000,sub(&testc1));
-  TEST_ASSERT_EQUAL(-1,sub(&testc12)); /* negative number input case  */
+  TEST_ASSERT_EQUAL(5.000000,sub(&testcp));
+  TEST_ASSERT_EQUAL(-1.000000,sub(&testcn)); 
 }
 void t_mul(void) {
-  TEST_ASSERT_EQUAL(50.000000,mul(&testc1));
-  TEST_ASSERT_EQUAL(-50.000000,mul(&testc12)); /* negative number input case  */
+  TEST_ASSERT_EQUAL(50.000000,mul(&testcp));
+  TEST_ASSERT_EQUAL(-50.000000,mul(&testcn)); 
 }
 void t_div(void){
-    TEST_ASSERT_EQUAL(2.000000,divi(&testc1));
+    TEST_ASSERT_EQUAL(2.000000,divi(&testcp));
 }
 void t_divByZero(void){
-    TEST_ASSERT_EQUAL(-1.000000,divi(&testc13));
+    TEST_ASSERT_EQUAL(-1.000000,divi(&testcz));
 }
 void t_logneg(void)
 {
-  TEST_ASSERT_EQUAL(-1, log10(&testc51));
+  TEST_ASSERT_EQUAL(-1, log10(&testcn5));
 }
 void t_logzero(void)
 {
-  TEST_ASSERT_EQUAL(-1, log10(&testc52));
+  TEST_ASSERT_EQUAL(-1, log10(&testcz5));
 }
 void t_zfact(void){
- TEST_ASSERT_EQUAL(1,fact(&testc52));  
+ TEST_ASSERT_EQUAL(1,fact(&testcz5));  
 }
 
 void t_fact(void){
- TEST_ASSERT_EQUAL(40320,fact(&testc5));  
+ TEST_ASSERT_EQUAL(40320,fact(&testcp5));  
 }
 void t_mod(void) {
-  TEST_ASSERT_EQUAL(1,modu(&testc2));
-  TEST_ASSERT_EQUAL(1,modu(&testc522)); 
+  TEST_ASSERT_EQUAL(1,modu(&testcp2)); 
 }
 void t_sin(void) {
-  TEST_ASSERT_EQUAL(0.14,sin_v(&testc5));
-  TEST_ASSERT_EQUAL(-0.14,sin_v(&testc51)); 
+  TEST_ASSERT_EQUAL(0.14,sin_v(&testcp5));
+  TEST_ASSERT_EQUAL(-0.14,sin_v(&testcn5)); 
 }
 void t_cos(void) {
-  TEST_ASSERT_EQUAL(0.99,cos_v(&testc5));
-  TEST_ASSERT_EQUAL(0.99,cos_v(&testc51)); 
+  TEST_ASSERT_EQUAL(0.99,cos_v(&testcp5));
+  TEST_ASSERT_EQUAL(0.99,cos_v(&testcn5)); 
 }
 void t_tan(void) {
-  TEST_ASSERT_EQUAL(0.14,tan_v(&testc5));
-   TEST_ASSERT_EQUAL(-0.14,tan_v(&testc51)); 
+  TEST_ASSERT_EQUAL(0.14,tan_v(&testcp5));
+   TEST_ASSERT_EQUAL(-0.14,tan_v(&testcn5)); 
 }
 void t_cosec(void) {
-  TEST_ASSERT_EQUAL(7.19,sin_inv(&testc5));
-   TEST_ASSERT_EQUAL(-7.19,sin_inv(&testc51)); 
+  TEST_ASSERT_EQUAL(7.19,sin_inv(&testcp5));
+   TEST_ASSERT_EQUAL(-7.19,sin_inv(&testcn5)); 
 }
 void t_sec(void) {
-  TEST_ASSERT_EQUAL(1.01,cos_inv(&testc5));
-  TEST_ASSERT_EQUAL(1.01,cos_inv(&testc51)); 
+  TEST_ASSERT_EQUAL(1.01,cos_inv(&testcp5));
+  TEST_ASSERT_EQUAL(1.01,cos_inv(&testcn5)); 
 }
 void t_cot(void) {
-  TEST_ASSERT_EQUAL(7.12,tan_inv(&testc5));
-   TEST_ASSERT_EQUAL(-7.12,tan_inv(&testc51)); 
+  TEST_ASSERT_EQUAL(7.12,tan_inv(&testcp5));
+   TEST_ASSERT_EQUAL(-7.12,tan_inv(&testcn5)); 
 }
