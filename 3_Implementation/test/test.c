@@ -83,11 +83,11 @@ void t_divByZero(void){
 }
 void t_logneg(void)
 {
-  TEST_ASSERT_EQUAL(-1, log10(&testcn5));
+  TEST_ASSERT_EQUAL(-1.00, log10(&testcn5));
 }
 void t_logzero(void)
 {
-  TEST_ASSERT_EQUAL(-1, log10(&testcz5));
+  TEST_ASSERT_EQUAL(-1.00, log10(&testcz5));
 }
 void t_zfact(void){
  TEST_ASSERT_EQUAL(1,fact(&testcz5));  
