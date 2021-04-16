@@ -61,7 +61,7 @@ int main()
 /* all test functions */ 
 void t_add(void) {
   TEST_ASSERT_EQUAL(15.000000,add(&testcp));
-   TEST_ASSERT_EQUAL(-5.00000,add(&testcn)); 
+   TEST_ASSERT_EQUAL(-15.00000,add(&testcn)); 
    }
 void t_sub(void) {
   TEST_ASSERT_EQUAL(5.000000,sub(&testcp));
