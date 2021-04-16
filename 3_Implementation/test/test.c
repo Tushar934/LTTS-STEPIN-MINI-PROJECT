@@ -65,7 +65,7 @@ void t_add(void) {
    }
 void t_sub(void) {
   TEST_ASSERT_EQUAL(5.000000,sub(&testcp));
-  TEST_ASSERT_EQUAL(-1.000000,sub(&testcn)); 
+  TEST_ASSERT_EQUAL(-5.000000,sub(&testcn)); 
 }
 void t_mul(void) {
   TEST_ASSERT_EQUAL(50.000000,mul(&testcp));
