@@ -20,7 +20,7 @@ void t_div(void);
 void t_divByZero(void);
 void t_logneg(void);
 void t_logzero(void);
-void t_Zfact(void);
+void t_zfact(void);
 void t_fact(void);
 void t_pow(void);
 void t_mod(void);
