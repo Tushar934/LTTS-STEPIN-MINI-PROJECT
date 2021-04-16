@@ -28,10 +28,6 @@
 |      H22      |          The choice is 22 for Cot(x).        |        8               |        7.12       |     7.12     |  Requirement    |     Success     |
 
 <br>
-
-
-
-
 <h2> Low Level Test Plans </h2> 
 <br>
 
