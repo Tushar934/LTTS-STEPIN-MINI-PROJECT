@@ -18,8 +18,6 @@ void t_sub(void);
 void t_mul(void);
 void t_div(void);
 void t_divByZero(void);
-void t_logneg(void);
-void t_logzero(void);
 void t_zfact(void);
 void t_fact(void);
 void t_pow(void);
@@ -47,7 +45,7 @@ int main()
  RUN_TEST(t_mul);
  RUN_TEST(t_div);
  RUN_TEST(t_divByZero);
- RUN_TEST(t_Zfact);
+ RUN_TEST(t_zfact);
  RUN_TEST(t_fact);
  RUN_TEST(t_mod);
  RUN_TEST(t_sin);
@@ -83,7 +81,7 @@ void t_zfact(void){
  TEST_ASSERT_EQUAL(1,fact(&testcz5));  
 }
 
-void t_fact(void){
+void t_zfact(void){
  TEST_ASSERT_EQUAL(40320,fact(&testcp5));  
 }
 void t_mod(void) {
