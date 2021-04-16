@@ -4,6 +4,7 @@ Credit:  https://www.codesdope.com/discussion/how-to-make-a-calculator-using-c-p
 
 | Badges   | Status  |  
 | -------- |-------    |
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d2143133c7ec45f1a153b9a49043adf6)](https://app.codacy.com/gh/Tushar934/LTTS-STEPIN-MINI-PROJECT?utm_source=github.com&utm_medium=referral&utm_content=Tushar934/LTTS-STEPIN-MINI-PROJECT&utm_campaign=Badge_Grade_Settings)
 |C/CI Build | [![C/C++ CI - Build Status](https://github.com/Tushar934/LTTS-STEPIN-MINI-PROJECT/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Tushar934/LTTS-STEPIN-MINI-PROJECT/actions/workflows/c-cpp.yml)         
 | Contribution         |[![Contribution Check - Git Inspector](https://github.com/Tushar934/LTTS-STEPIN-MINI-PROJECT/actions/workflows/git_inspector.yml/badge.svg)](https://github.com/Tushar934/LTTS-STEPIN-MINI-PROJECT/actions/workflows/git_inspector.yml)|
 | Unity_check         |[![Unit Testing - Unity](https://github.com/Tushar934/LTTS-STEPIN-MINI-PROJECT/actions/workflows/unity_check.yml/badge.svg)](https://github.com/Tushar934/LTTS-STEPIN-MINI-PROJECT/actions/workflows/unity_check.yml)|
