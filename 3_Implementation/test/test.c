@@ -81,7 +81,7 @@ void t_zfact(void){
  TEST_ASSERT_EQUAL(1,fact(&testcz5));  
 }
 
-void t_zfact(void){
+void t_fact(void){
  TEST_ASSERT_EQUAL(40320,fact(&testcp5));  
 }
 void t_mod(void) {
