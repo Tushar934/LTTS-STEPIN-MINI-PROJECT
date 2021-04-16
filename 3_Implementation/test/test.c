@@ -43,7 +43,7 @@ int main()
 
 /* Run Test functions */
  RUN_TEST(t_add);
- RUN_TEST(t_sub;
+ RUN_TEST(t_sub);
  RUN_TEST(t_mul);
  RUN_TEST(t_div);
  RUN_TEST(t_divByZero);
