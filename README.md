@@ -30,7 +30,7 @@ Credit:  https://www.codesdope.com/discussion/how-to-make-a-calculator-using-c-p
 
 |  SF_ID  |  Name  | Issue Raised| Issue Solved| Features |No.of Test Cases| No. of Test Cases Passing|
 | -------- | ------- |-----------|-------------|---------|-----------------|--------------------------|
-| 260766   | Tushar Goyal|1      | 0           | All     |
+| 260766   | Tushar Goyal|1      | 0           | All     |15               |15                        |
 
 
 
