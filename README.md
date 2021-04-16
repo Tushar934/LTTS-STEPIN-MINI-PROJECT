@@ -4,7 +4,7 @@ Credit:  https://www.codesdope.com/discussion/how-to-make-a-calculator-using-c-p
 
 | Badges   | Status  |  
 | -------- |-------    |
-| Build test|          |
+| Build test| [![C/C++ CI - Build Status](https://github.com/Tushar934/LTTS-STEPIN-MINI-PROJECT/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Tushar934/LTTS-STEPIN-MINI-PROJECT/actions/workflows/c-cpp.yml)         |
 | Contribution         |
 | Unity_check         |
 | c-cpp                |
