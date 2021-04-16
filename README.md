@@ -25,6 +25,7 @@ Credit:  https://www.codesdope.com/discussion/how-to-make-a-calculator-using-c-p
 *  Tools for making Makefile.
 *  Static Code Analysis.
 *  Linuc Build tool for project
+*  drwaio for diagram
 
 <h1> Contributors in the project</h1>
 <br>
