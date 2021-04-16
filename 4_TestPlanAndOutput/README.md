@@ -1,7 +1,6 @@
 <h1> Test Plans </h1>
 <h2> High Level Test Plans </h2>
-
-
+<br>
 
 |      ID       |                   Description                |     Expected I/P       |   Expected O/P    |  Actual O/P  |     Type        |      Status     |
 | ------------- | ---------------------------------------      | ---------------------  | ----------------  | ------------ | --------------- | --------------  |
@@ -28,13 +27,13 @@
 |      H21      |          The choice is 21 for Sec(x).        |        8               |        1.01       |     1.01     |  Requirement    |     Success     |
 |      H22      |          The choice is 22 for Cot(x).        |        8               |        7.12       |     7.12     |  Requirement    |     Success     |
 
-
+<br>
 
 
 
 
 <h2> Low Level Test Plans </h2> 
-
+<br>
 
 |      ID       |                   Description                |     Expected I/P       |   Expected O/P    |  Actual O/P  |     Type        |      Status     |
 | ------------- | ---------------------------------------      | ---------------------  | ----------------  | ------------ | --------------- | --------------  |
@@ -60,3 +59,5 @@
 |      H20      |          Negative value for Cosec(x).        |        -8              |        -7.19      |     -7.19    |  Requirement    |     Success     |
 |      H21      |          Negative value for Sec(x).          |        -8              |        1.01       |     1.01     |  Requirement    |     Success     |
 |      H22      |          Negative value for Cot(x).          |        -8              |        -7.12      |     -7.12    |  Requirement    |     Success     |
+
+<br>
