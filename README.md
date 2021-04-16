@@ -12,10 +12,11 @@ Credit:  https://www.codesdope.com/discussion/how-to-make-a-calculator-using-c-p
 <br>
 
 <h1>The Changes in Project</h1>
-# Add more lines of code besides that code in the link above.
-# Add more Functionality in the project, which includes headers files which imports into another c file.
-# Making a Makefile, Readme's, json files, yml files.
-# Adding workflows in the project.
+
+1. Add more lines of code besides that code in the link above.
+2. Add more Functionality in the project, which includes headers files which imports into another c file.
+3. Making a Makefile, Readme's, json files, yml files.
+4. Adding workflows in the project.
 
 <h1>Tools</h1>
 
