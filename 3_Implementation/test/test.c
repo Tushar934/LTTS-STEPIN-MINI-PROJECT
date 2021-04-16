@@ -2,7 +2,7 @@
  * @file test.c
  */
 #include <unity.h>
-#include "calcheader.h"
+#include "header.h"
 #define PROJECT_NAME    "ProjectCalculator"
 calc1 testc1={10.0,5.0}; //positive
 calc1 testc12={-10.0,-5.0}; //negative
