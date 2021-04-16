@@ -9,6 +9,7 @@ Credit:  https://www.codesdope.com/discussion/how-to-make-a-calculator-using-c-p
 | Unity_check         |[![Unit Testing - Unity](https://github.com/Tushar934/LTTS-STEPIN-MINI-PROJECT/actions/workflows/unity_check.yml/badge.svg)](https://github.com/Tushar934/LTTS-STEPIN-MINI-PROJECT/actions/workflows/unity_check.yml)|
 | code static  Analysis              |[![Code Quality - Static Code - Cppcheck](https://github.com/Tushar934/LTTS-STEPIN-MINI-PROJECT/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Tushar934/LTTS-STEPIN-MINI-PROJECT/actions/workflows/cppcheck.yml)|
 | Linux/CI Build           |[![Linux C/C++ Build CI](https://github.com/Tushar934/LTTS-STEPIN-MINI-PROJECT/actions/workflows/linux_cpp.yml/badge.svg)](https://github.com/Tushar934/LTTS-STEPIN-MINI-PROJECT/actions/workflows/linux_cpp.yml)|
+| Codacy                   |[![Codacy Badge](https://app.codacy.com/project/badge/Grade/9323692abdcd4616b2541eeba8c5a768)](https://www.codacy.com/gh/Tushar934/LTTS-STEPIN-MINI-PROJECT/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Tushar934/LTTS-STEPIN-MINI-PROJECT&amp;utm_campaign=Badge_Grade)|
 <br>
 <h1>The Changes in Project</h1>
 
