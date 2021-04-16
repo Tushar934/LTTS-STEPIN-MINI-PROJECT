@@ -47,8 +47,6 @@ int main()
  RUN_TEST(t_mul);
  RUN_TEST(t_div);
  RUN_TEST(t_divByZero);
- RUN_TEST(t_logneg);
- RUN_TEST(t_logzero);
  RUN_TEST(t_Zfact);
  RUN_TEST(t_fact);
  RUN_TEST(t_mod);
@@ -65,7 +63,7 @@ int main()
 /* all test functions */ 
 void t_add(void) {
   TEST_ASSERT_EQUAL(15.000000,add(&testcp));
-   TEST_ASSERT_EQUAL(-15.00000,sum(&testcn)); 
+   TEST_ASSERT_EQUAL(-15.00000,add(&testcn)); 
    }
 void t_sub(void) {
   TEST_ASSERT_EQUAL(5.000000,sub(&testcp));
@@ -80,14 +78,6 @@ void t_div(void){
 }
 void t_divByZero(void){
     TEST_ASSERT_EQUAL(-1.000000,divi(&testcz));
-}
-void t_logneg(void)
-{
-  TEST_ASSERT_EQUAL(-1.00, log10(&testcn5));
-}
-void t_logzero(void)
-{
-  TEST_ASSERT_EQUAL(-1.00, log10(&testcz5));
 }
 void t_zfact(void){
  TEST_ASSERT_EQUAL(1,fact(&testcz5));  
