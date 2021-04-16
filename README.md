@@ -10,7 +10,6 @@ Credit:  https://www.codesdope.com/discussion/how-to-make-a-calculator-using-c-p
 | code static  Analysis              |[![Code Quality - Static Code - Cppcheck](https://github.com/Tushar934/LTTS-STEPIN-MINI-PROJECT/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Tushar934/LTTS-STEPIN-MINI-PROJECT/actions/workflows/cppcheck.yml)|
 | Linux/CI Build           |[![Linux C/C++ Build CI](https://github.com/Tushar934/LTTS-STEPIN-MINI-PROJECT/actions/workflows/linux_cpp.yml/badge.svg)](https://github.com/Tushar934/LTTS-STEPIN-MINI-PROJECT/actions/workflows/linux_cpp.yml)|
 <br>
-
 <h1>The Changes in Project</h1>
 
 1.  Add more lines of code besides that code in the link above.
@@ -32,7 +31,5 @@ Credit:  https://www.codesdope.com/discussion/how-to-make-a-calculator-using-c-p
 |  SF_ID  |  Name  | Issue Raised| Issue Solved| Features |No.of Test Cases| No. of Test Cases Passing|
 | --------| ------- |-----------|-------------|---------|-----------------|--------------------------|
 | 260766  | Tushar Goyal|1      | 0           | All     |15               |15                        |
+
 <br>
-
-
-
